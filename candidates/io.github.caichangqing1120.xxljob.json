@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.caichangqing1120.xxljob",
+  "publisher": "caichangqing1120",
+  "version": "0.1.0",
+  "name": "XXL-JOB",
+  "description": "Manage official XXL-JOB Admin 2.3.x and 3.4.x jobs, executors and logs in DBX.",
+  "icon": "https://raw.githubusercontent.com/caichangqing1120/dbx-plugin-xxl-job/v0.1.0/assets/plugin.svg",
+  "tags": [
+    "xxl-job",
+    "scheduler",
+    "jobs"
+  ],
+  "permissions": [],
+  "source": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/tree/v0.1.0",
+  "homepage": "https://github.com/caichangqing1120/dbx-plugin-xxl-job",
+  "license": "MIT",
+  "releaseNotes": "Initial public candidate with separate official Admin 2.3.x and 3.4.x API profiles.",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-darwin-arm64.dbxp",
+      "sha256": "ff9b57558895b42b240d584a572c0513c87e433ed18aa5d03356b93f89ea9e31",
+      "size": 4402887
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-darwin-x64.dbxp",
+      "sha256": "bd466a33e716a4e73ca6f6fbd5d5991230ff534e3cee415c1ea8adb40740fd52",
+      "size": 4624356
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-windows-arm64.dbxp",
+      "sha256": "d8b85a6d44e10b3dfe9aa4d097ebfd5954b0a8b23be57444100ade28d8983244",
+      "size": 4376138
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-windows-x64.dbxp",
+      "sha256": "3de388e51406d5c9e5f57a59a511d577e242ee15770c8f5c776fb9dd323d4f59",
+      "size": 4696057
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-linux-arm64.dbxp",
+      "sha256": "62d5598b88f98fef21ffdcc701252e01d38cc5563f68853f24203bea3cb57503",
+      "size": 4374674
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-xxl-job/releases/download/v0.1.0/io.github.caichangqing1120.xxljob-0.1.0-linux-x64.dbxp",
+      "sha256": "23f181fa18c241e3506fbe801543601bd7683b1b3011574f1f73a2f597358c34",
+      "size": 4662619
+    }
+  ]
+}
