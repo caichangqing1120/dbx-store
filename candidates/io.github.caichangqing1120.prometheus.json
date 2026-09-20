@@ -20,6 +20,14 @@
     "zh-CN": {
       "name": "Prometheus",
       "description": "在 DBX 中使用只读 PromQL 编辑器，并查看采集目标、活动告警、规则和运行状态。"
+    },
+    "en": {
+      "name": "Prometheus",
+      "description": "Read-only PromQL editor, targets, alerts, rules and runtime status in a DBX workbench."
+    },
+    "zh": {
+      "name": "Prometheus",
+      "description": "在 DBX 中使用只读 PromQL 编辑器，并查看采集目标、活动告警、规则和运行状态。"
     }
   },
   "targets": [
