@@ -95,6 +95,11 @@
       "repository": "acornlive/dbx-plugin-json-pretty",
       "metadataPath": ".dbx-store.json",
       "autoUpdate": true
+    },
+    {
+      "repository": "caichangqing1120/dbx-plugin-prometheus",
+      "metadataPath": ".dbx-store.json",
+      "autoUpdate": true
     }
   ]
 }
