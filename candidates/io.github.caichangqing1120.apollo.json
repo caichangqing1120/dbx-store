@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.caichangqing1120.apollo",
+  "publisher": "caichangqing1120",
+  "version": "0.1.2",
+  "name": "Apollo Config",
+  "description": "Preview: manage Apollo 2.x configuration with independently authored pages and password login. Full 1:1 parity is incomplete.",
+  "icon": "https://raw.githubusercontent.com/caichangqing1120/dbx-plugin-apollo/v0.1.2/assets/apollo.png",
+  "tags": [
+    "apollo",
+    "configuration",
+    "devops"
+  ],
+  "permissions": [
+    "host.storage"
+  ],
+  "source": "https://github.com/caichangqing1120/dbx-plugin-apollo/tree/v0.1.2",
+  "homepage": "https://github.com/caichangqing1120/dbx-plugin-apollo",
+  "license": "Apache-2.0",
+  "releaseNotes": "0.1.2 Preview: independent management UI and ordinary password authentication. Complete native candidates for five platforms. Full all-page/all-dialog 1:1 acceptance still FAILS; no real Apollo deployment or native desktop installation acceptance. Official signing and review are required.",
+  "localizations": {
+    "zh-CN": {
+      "name": "Apollo 配置中心",
+      "description": "预览版：独立编写 Apollo 2.x 管理页面，支持普通账号密码登录。全量页面及弹窗 1:1 对照尚未通过。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-apollo/releases/download/v0.1.2/io.github.caichangqing1120.apollo-0.1.2-darwin-arm64.dbxp",
+      "sha256": "6c0960774f8ea2fa66d2e4b74eb950092b7f4551c1ae658b411168349d384ff7",
+      "size": 2771870
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-apollo/releases/download/v0.1.2/io.github.caichangqing1120.apollo-0.1.2-darwin-x64.dbxp",
+      "sha256": "e506b7a7a6682b006c1564f31bee306f60f2e09129ddb8e4523a5d920068cf06",
+      "size": 2984384
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-apollo/releases/download/v0.1.2/io.github.caichangqing1120.apollo-0.1.2-linux-arm64.dbxp",
+      "sha256": "11ac5d48dceb3298a3e0ab7ebb917d3aca61172024a9be6d0846378748f0a48a",
+      "size": 2698882
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-apollo/releases/download/v0.1.2/io.github.caichangqing1120.apollo-0.1.2-linux-x64.dbxp",
+      "sha256": "e8b4f82b9941710d5bb255de238d9d6664a015e54589ae11fbf744b76416868f",
+      "size": 2960299
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/caichangqing1120/dbx-plugin-apollo/releases/download/v0.1.2/io.github.caichangqing1120.apollo-0.1.2-windows-x64.dbxp",
+      "sha256": "11ededea10c1584ee6f0c6cb4ff9d1aa8a8d14977a0cb77cf18ad92ece5fea36",
+      "size": 3001585
+    }
+  ]
+}
