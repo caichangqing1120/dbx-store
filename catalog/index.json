@@ -7622,6 +7622,76 @@
       }
     },
     {
+      "id": "io.github.caichangqing1120.apollo",
+      "name": "Apollo Config",
+      "description": "Preview: manage Apollo 2.x configuration with independently authored pages and password login. Full 1:1 parity is incomplete.",
+      "publisher": "caichangqing1120",
+      "verified": false,
+      "icon": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/icon.png",
+      "tags": [
+        "apollo",
+        "configuration",
+        "devops"
+      ],
+      "permissions": [
+        "host.storage"
+      ],
+      "source": "https://github.com/caichangqing1120/dbx-plugin-apollo/tree/v0.1.2",
+      "homepage": "https://github.com/caichangqing1120/dbx-plugin-apollo",
+      "license": "Apache-2.0",
+      "latestVersion": "0.1.2",
+      "versions": [
+        {
+          "version": "0.1.2",
+          "releasedAt": "2026-10-20T02:44:14.105Z",
+          "releaseNotes": "0.1.2 Preview: independent management UI and ordinary password authentication. Complete native candidates for five platforms. Full all-page/all-dialog 1:1 acceptance still FAILS; no real Apollo deployment or native desktop installation acceptance. Official signing and review are required.",
+          "artifacts": [
+            {
+              "target": "darwin-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/io.github.caichangqing1120.apollo-0.1.2-darwin-arm64.dbxp",
+              "sha256": "0b2408ae34dc6216288b7e99cccb2c2f1b7f012d8e99b68aea221bdf7f4780b8",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2773721
+            },
+            {
+              "target": "darwin-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/io.github.caichangqing1120.apollo-0.1.2-darwin-x64.dbxp",
+              "sha256": "bec35ca39f2ecfb962737b21ae73ed6e8ee82126dec5b9db6ee5a4f333d35b35",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2986235
+            },
+            {
+              "target": "linux-arm64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/io.github.caichangqing1120.apollo-0.1.2-linux-arm64.dbxp",
+              "sha256": "d4a56a89814503c9e566594788a0fefd0f30afc8f609f39b195f7c3fad9ed793",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2700732
+            },
+            {
+              "target": "linux-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/io.github.caichangqing1120.apollo-0.1.2-linux-x64.dbxp",
+              "sha256": "c6fdcc18d1bee3fabf169c6537b8394d256bea757780ae4ce5280e8918f33023",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 2962150
+            },
+            {
+              "target": "windows-x64",
+              "url": "https://dl.dbxio.com/plugins/io.github.caichangqing1120.apollo/0.1.2/io.github.caichangqing1120.apollo-0.1.2-windows-x64.dbxp",
+              "sha256": "37e8f6c777425b9464eaaa91f5714e9ae30e74cc28df9d5d19c68e8a913b54f6",
+              "signingKeyId": "dbx-store-release-2026",
+              "size": 3003442
+            }
+          ]
+        }
+      ],
+      "localizations": {
+        "zh-CN": {
+          "name": "Apollo 配置中心",
+          "description": "预览版：独立编写 Apollo 2.x 管理页面，支持普通账号密码登录。全量页面及弹窗 1:1 对照尚未通过。"
+        }
+      }
+    },
+    {
       "id": "io.github.caichangqing1120.prometheus",
       "name": "Prometheus",
       "description": "Read-only PromQL editor, targets, alerts, rules and runtime status in a DBX workbench.",
